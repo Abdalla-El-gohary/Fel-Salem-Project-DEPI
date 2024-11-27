@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['ADIDAS_fake', 'ADIDAS_original', 'FILA_fake', 'FILA_original', 'NIKE_fake', 'NIKE_original', 'PUMA_fake', 'PUMA_original']
+
+roboflow:
+  workspace: galaxy-ijk35
+  project: fake-product-detection-system-ffqce
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/galaxy-ijk35/fake-product-detection-system-ffqce/dataset/3
